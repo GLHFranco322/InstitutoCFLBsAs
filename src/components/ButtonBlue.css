@@ -1,0 +1,21 @@
+#button-blue{
+    height: 2.5rem;
+    width: 6.5rem;
+    border: solid 2px var(--white-color);
+    border-radius: 100vw;
+    background-color: var(--blue-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    p{
+        cursor: pointer;
+    }
+
+    &:hover {
+        background-color: var(--white-color);
+        border:2px solid var(--blue-color);
+        color: var(--blue-color);
+        transition: 0.3s ease;
+    }
+}

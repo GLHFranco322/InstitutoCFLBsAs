@@ -24,7 +24,9 @@ const Header = () => {
                         <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
                     </ul>
                 </nav>
-                <Burger onClick={handleBurgerClick} isActive={burgerActive} />
+                <nav id='nav-burger'>
+                    <Burger onClick={handleBurgerClick} isActive={burgerActive} />
+                </nav>
             </div>
         </header>
     )

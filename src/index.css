@@ -2,17 +2,17 @@
 
 :root {
   font-weight: 400;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 
   --white-color: #fefefe;
   --black-color: #0f0f0f;
-  --blue-color: #1a5d99;
+  --blue-color: #3a6ad6;
   --gray-color: #dadada;
   --gray-color-2: #f8f8f8;
+  --height-header: 3.5rem;
 
   color-scheme: light dark;
-  background-color: var(--white-color);  
+  background-color: var(--white-color);
 }
 
 *{
@@ -21,4 +21,5 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-family: 'Poppins', sans-serif;
 }
