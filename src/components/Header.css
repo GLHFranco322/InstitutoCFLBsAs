@@ -9,9 +9,10 @@
     top: 0;
     justify-content: space-between;
     mask-image: linear-gradient(to bottom,
-    black 60%,
+    black 90%,
     transparent)
     ;
+    z-index: 2;
 
     .logo {
         height: 1rem;

@@ -1,0 +1,4 @@
+#section-two{
+    height: calc(100dvh - var(--height-header));
+    background-color: red;
+}

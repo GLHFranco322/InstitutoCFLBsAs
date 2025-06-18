@@ -8,7 +8,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: calc(min(100%, 700px));
+        /* width: calc(min(100%, 700px)); */
+        height: 90%;
+        aspect-ratio: 1/1;
         position: relative;
 
         .arrow-container{
