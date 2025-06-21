@@ -1,4 +1,27 @@
 #section-two{
     height: calc(100dvh - var(--height-header));
-    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: black */
+}
+
+.container-section-two{
+    height: 90%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5vw;
+    text-align: center;
+    align-items: center;
+    /* background-color: red; */
+
+    .stickers-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
 }

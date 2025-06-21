@@ -1,10 +1,11 @@
 import './Sticker.css';
 
-const Sticker = () => {
+const Sticker = ({number, tittle, marginLeft, marginRight}) => {
   return (
-    <div>
-        <h1>hola</h1>
-    </div>
+    <article className="sticker" style={{marginLeft: marginLeft, marginRight: marginRight}}>
+        <h4>.{number}</h4>
+        <p>{tittle}</p>
+    </article>
   )
 }
 

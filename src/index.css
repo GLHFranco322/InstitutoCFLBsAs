@@ -3,6 +3,7 @@
 :root {
   font-weight: 400;
   font-size: 18px;
+  color: var(--black-color);
 
   --white-color: #fefefe;
   --black-color: #0f0f0f;
