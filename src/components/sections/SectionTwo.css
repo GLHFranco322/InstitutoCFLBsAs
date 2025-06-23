@@ -1,9 +1,12 @@
 #section-two{
-    height: calc(100dvh - var(--height-header));
+    height: calc(100vh - var(--height-header));
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
     /* color: black */
 }
 
@@ -11,10 +14,11 @@
     height: 90%;
     width: 80%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5vw;
+    grid-template-columns: 2fr .1fr 2fr;
     text-align: center;
     align-items: center;
+    justify-items: center;
+    align-content: center;
     /* background-color: red; */
 
     .stickers-container{
@@ -22,6 +26,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 2rem;
+        width: 100%;
     }
 }
