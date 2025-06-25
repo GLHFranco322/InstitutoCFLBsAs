@@ -1,0 +1,57 @@
+#section-three {
+    height: calc(100vh - var(--height-header));
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+#container-section-three {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+    .title-container {
+        /* border: solid 1px black; */
+        margin: 0 auto;
+        width: 50vw;
+        text-align: center;
+        cursor: default;
+        font-size: 1rem;
+        position: relative;
+
+        .img-container {
+            height: 4rem;
+
+            img {
+                height: 100%;
+            }
+        }
+        &::after{
+            position: absolute;
+            content: "";
+            height: 50vw;
+            width: 50vw;
+            bottom: -120%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 100vw;
+            /* background-color: red; */
+            border: solid 3rem var(--gray-color-2);
+        }
+    }
+
+    .arcicle-section-three-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        gap: 2rem;
+        align-items: center;
+
+        >article:nth-child(2) {
+            align-self: flex-end;
+        }
+    }
+}
